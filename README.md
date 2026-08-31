@@ -1,4 +1,4 @@
-x# HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding
+# HSD: Training-Free Acceleration for Document Parsing Vision-Language Models with Hierarchical Speculative Decoding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2602.12957-b31b1b.svg)](https://arxiv.org/abs/2602.12957)
 [![ECCV 2026](https://img.shields.io/badge/ECCV-2026-blue)](https://eccv.ecva.net/)
