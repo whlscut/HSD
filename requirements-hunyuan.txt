@@ -1,0 +1,21 @@
+# HunyuanOCR HSD pipeline (Python >= 3.10)
+#
+# IMPORTANT: this pipeline requires a specific transformers prerelease
+# (commit 82a06db0, "hunyuan vision prerelease") that ships the
+# HunYuanVLProcessor. Install it BEFORE the other deps:
+#
+#   git clone https://github.com/huggingface/transformers.git
+#   cd transformers
+#   git fetch origin 82a06db03535c49aa987719ed0746a76093b1ec4
+#   git checkout FETCH_HEAD
+#   pip install -e .
+#
+# (transformers is Apache-2.0 licensed; installing from a commit is fine.)
+torch==2.7.1
+accelerate>=1.14
+flash-attn==2.8.0.post2   # ViT image attention
+ijson>=3.5
+pillow
+numpy
+einops
+requests

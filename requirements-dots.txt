@@ -1,0 +1,16 @@
+# Verified combination for the dots.ocr HSD pipeline (Python 3.10, CUDA 12.x)
+# Note: transformers 4.54+ changes the DynamicCache internals; the modeling code
+# supports both layouts (key_cache lists and per-layer DynamicLayer objects).
+# flash-attn is required for the vision encoder (flash-attn2 varlen).
+torch==2.7.1
+transformers>=4.53,<4.57
+accelerate==1.14.0
+flash-attn==2.8.0.post2
+qwen-vl-utils==0.0.11
+ijson>=3.5
+PyMuPDF>=1.24
+pillow
+numpy
+timm
+einops
+requests

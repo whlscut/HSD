@@ -1,0 +1,34 @@
+# pre-generated drafts and inference outputs are not part of the repo
+ocr_results/
+outputs/
+outputs_*/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# environments
+.env
+.venv
+venv/
+
+# model weights (downloaded separately)
+weights/
+
+# editors / OS
+.idea/
+.vscode/
+.DS_Store
+
+# demo/debug artifacts
+debug_*.png
+
+# original demo scripts kept locally for reference during the release prep
+# (the author removes them before publishing)
+backup/
+# local transformers fork checkout (see README for the install commands)
+transformers/
